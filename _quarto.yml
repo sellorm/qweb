@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Netlify deployment test site"
+  site-url: "https://sellorm-qweb.netlify.app"
   navbar:
     left:
       - href: index.qmd
