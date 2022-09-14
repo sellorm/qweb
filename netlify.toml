@@ -1,2 +1,4 @@
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
+    [plugins.inputs]
+    cmd = "render --site-url $DEPLOY_PREVIEW_URL"
